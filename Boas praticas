@@ -58,6 +58,10 @@ quando visualiza a ramificacao no projeto (As branchs).
 Merge.
 E quando nos juntamos o codigo que foi alterado, e juntamos com a branch master (main)
 Podemos fazer isso utilizando PULL REQUEST.
+Podemos realizar diretamente no GitHub ou no CLI DO GIT BASH.
+                - para realizar diretamente no CLI precisa seguir os comandos:
+                        - entramos na branch MAIN e executamos:
+                                -git merge  (nome da branch secundária)
 
 Clone -> clona o projeto, copia e faz o clone para a maquina.
 
