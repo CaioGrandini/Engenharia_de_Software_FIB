@@ -19,3 +19,33 @@ comandos Git:
             - git commit -m "comentario" -> coleta todos os arquivos do index e elege o mesmo para futuras revisoes.
             - git push -> empurra todos os seus commits para o github.
             - git status -> mostra o status atual do repositorio.
+
+Outros comandos:
+    GIT PULL:
+    Usado para receber as alteracoes do MEU PROJETO.
+            - git pull -> usado para trazer todas as modificacoes que estao no github para o seu projeto local. Isso e vital
+            quando existem projetos mantidos por mais de uma pessoa, ou se voce possui duas maquinas e precisa manter a sincornia entre elas.
+            Com o git pull, se houverem alteracoes enquanto nao estou trabalhando no codigo, eu consigo trazer todas as informacoes que foram mexidas
+            enquando ausente.
+
+Atividade:
+Realizando um Git PULL no repositorio do vizinho.
+    Friend Project:
+            - git clone Http://clone.
+            - alterar um arquivo.
+            - git add <nome do arquivo>
+            - git commit -m "comentario"
+            - git push
+
+    My Project:
+            - git push.
+
+
+Branchs:
+E usada para criarmos um novo ambiente com o codigo.
+Com isso, nos conseguimos mexer no codigo, programar, fazer as validacoes, homologar sem parar o ambiente de producao.
+Apos com tudo homologado, nos podemos subir na master.
+
+
+
+
