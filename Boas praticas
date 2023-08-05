@@ -61,11 +61,14 @@ Podemos fazer isso utilizando PULL REQUEST.
 Podemos realizar diretamente no GitHub ou no CLI DO GIT BASH.
                 - para realizar diretamente no CLI precisa seguir os comandos:
                         - entramos na branch MAIN e executamos:
-                                -git merge  (nome da branch secundária)
+                                -git merge (nome da branch secundária)
+                O merge é referente a BRANCH que voce quer puxar
 
 Clone -> clona o projeto, copia e faz o clone para a maquina.
 
 Existem ferramentas de terceiros para versionar para o git de maneira mais facil como: TortoiseGIT
+
+GIT FLOW
 
 
 
