@@ -69,6 +69,31 @@ Clone -> clona o projeto, copia e faz o clone para a maquina.
 Existem ferramentas de terceiros para versionar para o git de maneira mais facil como: TortoiseGIT
 
 GIT FLOW
+Existem 2 formas de implementar o gitflow:
+        1 - utilizando os comandos basicos do Git.
+        2 - utilizando uma cli que ajuda a simplificar o fluxo do Git Flow
+
+Teoria dos gargalos.
+
+integração continua:
+Os desenvolvedores fazem o push no repositorio 
+
+Entrega continua:
+A entrega continua  concentra-se em uma perspectiva mais holistica do desenvolvimento de software.
+        - Automacao de testes.
+        - Automacao do processo de implementacao
+        - infra-estrutura como codigo.
+        - feedback rápido e automatizado sobre alteracões em produções.
+        - estado implantavel a qualquer momento de qualquer versao, com apenas um clique de botao.
+
+
+Implantacao continua:
+É o estado que um processo de desenvolvimmento dde software alcança quando todas as alteracoes passam
+pelo pipeline de implantacao (deployment pipeline) e sao adicionados automaticamente em producao.
+
+Pipeline de implantacao:
+É uma automatizacao do processo de enviar o software do versionador de fontes até a producao.
+
 
 
 
