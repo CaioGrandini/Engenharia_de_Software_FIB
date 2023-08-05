@@ -94,6 +94,23 @@ pelo pipeline de implantacao (deployment pipeline) e sao adicionados automaticam
 Pipeline de implantacao:
 É uma automatizacao do processo de enviar o software do versionador de fontes até a producao.
 
+integracao continua, entrega e implantacao continua.
+        - integracao
+        - entrega 
+        - implantacao
+
+GitLab
+É uma plataforma de DevOps de código aberto que oferece soluções para todo o fluxo de desenvolvimento e implantação, como
+repositorios GIT (para versionamento de codigo), Wikis (para gestao de conhecimento e documentacao), quadro de tarefas (similar ao jira),
+monitoramento e implantação.
+
+Continuos Integration e continuos deployment (CI/CD)
+Para facilitar esse processo, o Gitlab ci/cd ...
+existem 3 etapas:
+        - check
+        - build
+        - deploy
+
 
 
 
