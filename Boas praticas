@@ -1,0 +1,21 @@
+Git, GitFlow e GitLab
+
+Git
+- permite a criacao do brench.
+    BRENCH: e um snapshot da ultima versao do codigo.
+            assim podemos mexer, codar, mudar a versao, sem mexer na brench static.
+            Com isso conseguimos alterar o codigo sem afetar os outros desenvolvedores.
+            Ou seja, os demais desenvolvedores irao olhar o fonte principal e nao o brench.
+            Os fontes serao alterados da forma desejada e quem desejar fazer uma alteracao em paralelo, 
+            tera o fonte original sem nenhuma alteracao, evitando que tenha problemas de compilacao enquanto
+            existem desenvolvedores trabalhando.
+
+GitHub
+- e um servico web que oferece diversas funcionalidades extas aplicadas ao git, incluindo hospedar seus projetos pessoais.
+
+comandos Git:
+    4 comandos iniciais do git sao:
+            - git add <nome do arquivo> -> permite que os arquivos entrem na area de index do git para futuras revisoes.
+            - git commit -m "comentario" -> coleta todos os arquivos do index e elege o mesmo para futuras revisoes.
+            - git push -> empurra todos os seus commits para o github.
+            - git status -> mostra o status atual do repositorio.
