@@ -1,0 +1,46 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
+
+public class ConversorDeCartasTest {
+
+    @Test
+    public void testConverteAsPara1() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(1, conCartas.converteCartaParaInt("A"));
+    }
+    @Test
+    public void testConverteDoisPara2() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(2, conCartas.converteCartaParaInt("2"));
+    }
+    @Test
+    public void testConverteTresPara3() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(3, conCartas.converteCartaParaInt("3"));
+    }
+    @Test
+    public void testConverteDezPara10() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(10, conCartas.converteCartaParaInt("10"));
+    }
+    @Test
+    public void testConverteJPara11() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(11, conCartas.converteCartaParaInt("J"));
+    }
+    @Test
+    public void testConverteQPara12() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(12, conCartas.converteCartaParaInt("Q"));
+    }
+    @Test
+    public void testConverteKPara13() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(13, conCartas.converteCartaParaInt("K"));
+    }
+    @Test
+    public void testConverteCoringaParaMenosUm() {
+        ConversorDeCartas conCartas = new ConversorDeCartas();
+        assertEquals(-1, conCartas.converteCartaParaInt("Coringa"));
+    }
+}
